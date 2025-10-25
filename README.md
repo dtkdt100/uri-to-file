@@ -1,8 +1,8 @@
-# uri_to_file
-
-[![Pub](https://img.shields.io/pub/v/uri_to_file.svg?style=flat-square&logo=dart&label=pub.dev&color=blue)](https://pub.dev/packages/uri_to_file)
+# uri_to_file_new
 
 A Flutter plugin for converting supported uri to file. Supports Android & iOS.
+
+Forked from: https://github.com/Nikhil1999/uri-to-file due to complition errors
 
 **Supported Uri Schema**
 
@@ -15,7 +15,7 @@ A Flutter plugin for converting supported uri to file. Supports Android & iOS.
 
 ```yaml
 dependencies:
-  uri_to_file: ^1.0.0
+  uri_to_file_new: ^1.0.1
 ```
 
 ### Super simple to use
@@ -23,7 +23,7 @@ dependencies:
 ```dart
 import 'dart:io';
 
-import 'package:uri_to_file/uri_to_file.dart';
+import 'package:uri_to_file_new/uri_to_file.dart';
 
 Future<void> convertUriToFile() async {
   try {
@@ -46,7 +46,7 @@ Future<void> convertUriToFile() async {
 
 - Don't pass uri parameter using [Uri] object via uri.toString(). Because uri.toString() changes the string to lowercase which causes this package to misbehave
 - If you are using uni_links package for deep linking purpose. Pass the uri string using getInitialLink() or linkStream
-- Check out the full example: https://pub.dev/packages/uri_to_file/example
+- Check out the full example: https://pub.dev/packages/uri_to_file_new/example
 
 ### Working example
 

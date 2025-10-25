@@ -7,7 +7,7 @@ import 'package:path/path.dart';
 import 'package:uni_links/uni_links.dart';
 import 'dart:async';
 
-import 'package:uri_to_file/uri_to_file.dart';
+import 'package:uri_to_file_new/uri_to_file.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

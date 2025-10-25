@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:uri_to_file/src/uri_to_file_platform_interface.dart';
+import 'package:uri_to_file_new/src/uri_to_file_platform_interface.dart';
 
 /// The iOS implementation of [UriToFilePlatform].
 class UriToFilePluginIOS extends UriToFilePlatform {
